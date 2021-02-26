@@ -1,0 +1,45 @@
+@import "../../styles.scss"; 
+
+.list_container{
+  display: inline-flex;
+  margin: 0 1em;
+  position: relative;
+  bottom: -285px; 
+  .article{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 150px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    .inner_article{
+      display: flex;
+      .line{
+        display: block;
+        content: "";
+        background-color: $brown-color;
+        width: 2px;
+        height: 60px;
+        margin: 5px;
+      }
+      h3{
+        font-size: 1em;
+        color: $brown-color;
+      }
+      p{
+        font-size:0.7em;
+      }
+    }
+    
+    span{
+      background-color: white;
+      min-width: 100px;
+      height: 20px;
+      margin: 5px;
+      a{
+        font-size: 0.9em;
+        text-decoration: none;
+        color: $grey-text;
+      }
+    }
+    
+  }
+}

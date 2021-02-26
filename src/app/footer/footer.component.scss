@@ -1,0 +1,53 @@
+@import "../../styles.scss"; 
+
+.footer{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  p, a{
+    text-decoration: none;
+    font-size: 0.9em;
+    margin: 0;
+    color: $grey-text;
+  }
+  h1{
+    color: $brown-color;
+    font-size: 1.1em
+  }
+  
+  .bloc{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    &:nth-child(1){
+       margin-bottom: 1em;
+    }
+    &:nth-child(2){
+      p{
+        text-align: center;
+      }
+    }
+    .logo,
+    .social-media{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img{
+        width: 80px;
+      };
+    }
+    .copyright{
+        color: $brown-color; 
+        text-decoration: none ;
+        font-weight: lighter;
+        font-style: italic;
+        a{
+          color: $brown-color;
+        }
+    }
+  }
+}

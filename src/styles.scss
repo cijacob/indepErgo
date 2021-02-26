@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
-@import 'tailwindcss/base';
-@import 'tailwindcss/components'; 
-@import 'tailwindcss/utilities';
+$brown-color: #8F6E14;
+$grey-text: #455965;
+
+body{
+  background: linear-gradient(#455965, #FAFBFC);
+  margin:0;
+  padding: 0;
+}
